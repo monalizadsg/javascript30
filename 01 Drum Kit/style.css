@@ -1,0 +1,96 @@
+html {
+  font-size: 10px;
+  background-image: url(images/waves.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: bottom center;
+  height: 100%;
+  width: 100%;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.header {
+  /* min-height: 3vh; */
+  width: 100%;
+  font-family: "Roboto", cursive;
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 20px;
+  /* border: red 1px solid; */
+}
+
+.title h1 {
+  width: 30%;
+  padding: 0;
+  margin: 0;
+  margin: auto;
+  /* background-color: #170c44; */
+  text-align: center;
+  /* border: white solid 1px; */
+  border-radius: 10px;
+  font-size: 85px;
+  text-transform: uppercase;
+}
+
+.keys {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  margin-top: 45px;
+  /* display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center; */
+}
+
+/* .keys div {
+  display: block;
+} */
+
+.note {
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.key {
+  border: 0.4rem solid white;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 7rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
